@@ -898,6 +898,7 @@ footer{padding:32px 0;background:var(--navy)}
   // ── CONTACT ──
   g('c-note').textContent = DATA.contact.note;
   [
+    DATA.contact.Mobile    && ['📱','Mobile',   DATA.contact.Mobile,    `mailto:${DATA.contact.Mobile}`],   
     DATA.contact.email    && ['✉️','Email',   DATA.contact.email,    `mailto:${DATA.contact.email}`],
     DATA.contact.linkedin && ['💼','LinkedIn', DATA.contact.linkedin.replace('https://',''), DATA.contact.linkedin],
     DATA.contact.github   && ['🐙','GitHub',   DATA.contact.github.replace('https://',''),   DATA.contact.github],

@@ -21,11 +21,11 @@ const DATA = {
      PERSONAL INFO
   ────────────────────────────────────────── */
   personal: {
-    name:         "Your Full Name",          // ← shows in nav, hero, footer
-    initials:     "YN",                      // ← shown in avatar card until you add a photo
-    title:        "Senior Business & Data Analyst",
+    name:         "Gaurav Kumar",          // ← shows in nav, hero, footer
+    initials:     "GK",                      // ← shown in avatar card until you add a photo
+    title:        "Senior Manager - Business Excellence & Product",
     tagline:      "I transform messy data into clear strategy — bridging analytics, product, and operations to drive measurable growth.",
-    location:     "Gurugram, India",
+    location:     "Delhi, India",
     available:    true,                      // ← true = green dot "Open to work"
     heroEyebrow:  "Open to opportunities",
     photo:        "",                        // ← add path like "assets/photo.jpg" to show your photo
